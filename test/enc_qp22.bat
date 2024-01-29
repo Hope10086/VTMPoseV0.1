@@ -1,0 +1,1 @@
+EncoderApp.exe -c encoder_lowdelay_P_vtm.cfg -c game.cfg -q 22 -o QP22/qp22_enc.yuv -b QP22/qp22_enc.bin>QP22/qp22_enc.txt

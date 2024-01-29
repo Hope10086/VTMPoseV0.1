@@ -1,0 +1,9 @@
+
+VVCSoftware: VTM Decoder Version 19.0 [Windows][VS 1929][64 bit] [SIMD=AVX2] [ENABLE_TRACING] 
+
+Tracing is enabled: str_all.vtmbmsstats : D_BLOCK_STATISTICS_ALL:poc>=0
+POC    0 LId:  0 TId: 0 ( IDR_N_LP, I-SLICE, QP 31 ) [DT  1.153] [L0] [L1] [:,(unk)] 
+POC    1 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 40 ) [DT  1.235] [L0 0c] [L1] [:,(unk)] 
+POC    2 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 39 ) [DT  1.168] [L0 1c 0] [L1] [:,(unk)] 
+
+ Total Time:        3.887 sec.

@@ -1,0 +1,4 @@
+DecoderApp.exe -b QP22/qp22_enc.bin -o QP22/qp22_dec.yuv>QP22/qp22_dec.txt --TraceFile=QP22/"str_all.vtmbmsstats" --TraceRule="D_BLOCK_STATISTICS_ALL:poc>=0"
+DecoderApp.exe -b QP32/qp32_enc.bin -o QP32/qp32_dec.yuv>QP32/qp32_dec.txt --TraceFile=QP32/"str_all.vtmbmsstats" --TraceRule="D_BLOCK_STATISTICS_ALL:poc>=0"
+DecoderApp.exe -b QP27/qp27_enc.bin -o QP27/qp27_dec.yuv>QP27/qp27_dec.txt --TraceFile=QP27/"str_all.vtmbmsstats" --TraceRule="D_BLOCK_STATISTICS_ALL:poc>=0"
+DecoderApp.exe -b QP37/qp37_enc.bin -o QP37/qp37_dec.yuv>QP37/qp37_dec.txt --TraceFile=QP37/"str_all.vtmbmsstats" --TraceRule="D_BLOCK_STATISTICS_ALL:poc>=0"
