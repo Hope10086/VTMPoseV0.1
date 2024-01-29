@@ -55,9 +55,9 @@
 
 #define RDCOST 0//CY RDCOST
 
-#define POSE 1          //CY Pose模式 1开 0关
+#define POSE 0          //CY Pose模式 1开 0关
 #define POSECANDNUM 9   //候选的数量
-#define SELECT     1 //选择哪个序列1-6
+#define SELECT     2 //选择哪个序列1-6
 
 #define TEST 0
 
@@ -67,19 +67,19 @@
 #define YUV_PRINT   0
 
 #define POSE_NO_FAST  1
-#define CTRL_POINT 0//CTRL_COMB=1 则CTRL_POINT=0
+#define CTRL_POINT 1//CTRL_COMB=1 则CTRL_POINT=0
 
-#define INHERITED   1
+#define INHERITED   0
 #define IDEAL_SITU1   0
 #define IDEAL_SITU2   0
-#define INT2ROUND  1
-#define THETA_UV  1
+#define INT2ROUND  0
+#define THETA_UV  0
 #define FILTER_INIT_POSE    0
 #define FILTER_AFFINE    0
 
 #define FILTER_POSE   0
 
-#define CTRL_COMB   1
+#define CTRL_COMB   0
 
 
 // clang-format off

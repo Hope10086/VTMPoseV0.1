@@ -3013,8 +3013,8 @@ void PU::xInheritedposeMv( const PredictionUnit &pu, const PredictionUnit* puNei
         }
 
 #if INT2ROUND
-        detalx_int = round(detalx);
-        detaly_int = round(detaly);
+       detalx_int = int  (round(detalx));
+       detaly_int = int  (round(detaly));
 #else
         detalx_int = int(detalx);
         detaly_int = int(detaly);
@@ -4562,7 +4562,11 @@ void PU::getposeMergeCand(const PredictionUnit &pu, AffineMergeCtx &affMrgCtx, c
   const CodingStructure &cs                    = *pu.cs;
   const Slice &          slice                 = *pu.cs->slice;
   //const uint32_t         maxNumAffineMergeCand = slice.getPicHeader()->getMaxNumAffineMergeCand();
+#if CTRL_COMB
   const uint32_t maxNumAffineMergeCand = POSECANDNUM*3;
+#else
+  const uint32_t maxNumAffineMergeCand = POSECANDNUM;
+#endif
   const unsigned         plevel                = pu.cs->sps->getLog2ParallelMergeLevelMinus2() + 2;
 #if GDR_ENABLED
   const bool isEncodeGdrClean =

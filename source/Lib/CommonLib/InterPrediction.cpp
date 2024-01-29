@@ -1521,8 +1521,8 @@ bool InterPrediction::xPredposeBlk(const ComponentID &compID, const PredictionUn
           detaly = (v6 - v5) * 16;
         }
 #if INT2ROUND
-        detalx_int = round(detalx);
-        detaly_int = round(detaly);
+        detalx_int = int(round(detalx));
+        detaly_int = int(round(detaly));
 #else
         detalx_int = int(detalx);
         detaly_int = int(detaly);

@@ -47,7 +47,7 @@
 #include <fstream>
 #endif
 
-#define CTRL_COMB   1
+#define CTRL_COMB   0
 
 #if _MSC_VER > 1000
 // disable "signed and unsigned mismatch"
